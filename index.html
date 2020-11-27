@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Kpiz</title>
+<link rel='stylesheet' href='style2.css'>
+    </head>
+    <body>
+        <div id='header'>
+            <h1>Employeers</h1>
+            <button id='emp'onclick='newEmployee()'>new employee</button>
+            <button  id='delEmp'>Delete</button>
+            <button  id='edit'>Edit</button>
+        </div>
+        <main>
+      <div id='list'>
+          <h3>List</h3>
+      </div>
+      <div id='input'>
+        <h3>Введіть дані:</h3>  
+        <br>
+          <img id='photo' src='https://offvkontakte.ru/wp-content/uploads/avatarka-pustaya-vk_23.jpg'>
+        <input type="file" id='img'>
+        <p>Введіть ім'я</p>
+        <input type='text' id='inp' placeholder="full name">
+        <br>
+        <p>Введіть вік</p>
+        <input type='text' id='age' placeholder='age'>
+        <br>
+        <p>Введіть номер телефону</p>
+        <input type='text' id='num' placeholder='phone-number'>
+        <br><br>
+        <button onclick='send()'>Submit</button>
+    </div>
+      <div id='active'>
+          <img id='show_photo' src=''>
+      </div>
+        </main>
+        <script src='main.js'></script>
+    </body>
+</html>
